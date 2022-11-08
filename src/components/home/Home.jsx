@@ -74,6 +74,7 @@ const Content = styled.div`
     height:auto;
     max-width:400px;
     background:transparent;
+    padding-top:32px;
 
     h1{
         font-family: 'Spline Sans Mono', monospace;

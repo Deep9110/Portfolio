@@ -63,7 +63,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.4rem;
     top:-18%;
     padding: 0.5rem 0rem;
 }
@@ -81,12 +81,14 @@
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
+    gap:3px;
 }
 .content .techs span{
     background: #1b1b3a;
     color:#fff;
-    margin:2px 0px;
+    margin:1px 0px;
     padding:2px 6px;
+    
     border-radius: 5px;
     font-family: 'Spline Mono', monospace;
     opacity: 0;
@@ -125,17 +127,17 @@
 @media only screen and (max-width:420px){
     .card{
         width:280px;
-        height: 260px;
+        height: 240px;
     }
     .card .box{
         width:250px;
-        height:260px;
+        height:240px;
     }
     .content h4{
         font-size: 20px;
     }
     .card:hover{
-        height:300px;
+        height:315px;
         
     }
 }

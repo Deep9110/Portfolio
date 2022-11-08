@@ -60,7 +60,7 @@
 @media only screen and (max-width: 768px){
 
     .tech{
-        padding-top: 6rem;
+        padding-top: 4rem;
     }
     .tech .skills{
         gap:2rem;
@@ -70,9 +70,7 @@
 }
 
 @media only screen and (max-width: 420px){
-    .tech{
-        padding-top: 8rem;
-    }
+    
     .tech .skills{
         gap:1rem;
         justify-content:center;
