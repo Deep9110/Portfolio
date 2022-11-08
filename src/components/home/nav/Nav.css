@@ -1,0 +1,48 @@
+.nav{
+    display:flex;
+    height:90px;
+    align-items: center;
+    justify-content:center;
+    width:100%;
+    color:white; 
+    position:relative;
+    gap:5rem;
+    
+}
+.nav >li{
+    list-style: none;
+    font-weight: bold;
+    font-family: 'Spline Sans Mono', monospace;
+    position:relative;
+}
+
+.nav > li > a{
+    color:white;
+    text-decoration: none;
+    position:relative;
+    display:inline-block
+}
+
+.nav > li > a:after {    
+    background: none repeat scroll 0 0 transparent;
+    top:22px;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.5s ease 0s, left 0.5s ease 0s;
+    width: 0;
+  }
+  .nav > li > a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  @media only screen and (max-width: 420px){
+   .nav{
+    gap:3rem;
+   } 
+  }

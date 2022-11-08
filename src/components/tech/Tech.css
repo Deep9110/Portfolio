@@ -1,0 +1,81 @@
+.tech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    width:100%;
+}
+.tech h1{
+    font-size:40px;
+    font-weight: bold;
+    text-align: center;
+    /* position: absolute; */
+    
+}
+.tech h1::after{
+    content:"";
+    height:2px;
+    width:0;
+    transition: width 0.5s ease 0s, left 0.5s ease 0s;
+    left:50%;
+    position: relative;
+    background: #fff;
+    display: block;
+}
+.tech h1:hover::after{
+    width:100%;
+    left:0;
+}
+
+.tech .skills{
+   
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: start;
+    align-items: center;
+    position:relative;
+    padding:1rem 3rem;
+    gap:4rem;
+}
+.tech .skills img{
+    height: 100px;
+    width: 100px;
+   
+}
+.tech .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2rem 0;
+}
+.tech .skill h6{
+    padding-top: 2rem;
+    color:#fff;
+    text-align: center;
+   
+}
+
+@media only screen and (max-width: 768px){
+
+    .tech{
+        padding-top: 6rem;
+    }
+    .tech .skills{
+        gap:2rem;
+        justify-content:center;
+        padding:1rem 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .tech{
+        padding-top: 8rem;
+    }
+    .tech .skills{
+        gap:1rem;
+        justify-content:center;
+        padding:0.5rem 1rem;
+    }
+}
