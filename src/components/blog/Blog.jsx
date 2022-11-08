@@ -3,7 +3,7 @@ import Cart2 from '../cart/blog/Cart2'
 import './Blog.css'
 const Blog = () => {
   return (
-    <div className='blogs'>
+    <div className='blogs' id='blog'>
         <h1>Blogs</h1>
         <div className="each-blog">
             <Cart2/>

@@ -114,6 +114,7 @@ const Content = styled.div`
         background:transparent;
         border:none;
         letter-spacing: 4px;
+        cursor:pointer;
     }
     h1, p, span, button{
         margin: 0 30px 0 48px;
@@ -140,7 +141,7 @@ const Content = styled.div`
         border-bottom: 2px solid #fff;
         border-right: 2px solid #fff;
         transition: 0.5s;
-        transition-delay: 0.8s;
+        transition-delay: 0.5s;
     }
     button:hover::before,
     button:hover::after{
@@ -176,7 +177,7 @@ const Content = styled.div`
             font-size:45px;
         }
         h1, p, span, button{
-            margin: 0 30px 0 32px;
+            margin: 0 30px 0 22px;
         }
     }
 `

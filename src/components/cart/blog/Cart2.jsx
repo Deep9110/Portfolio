@@ -48,7 +48,7 @@ const Cart = () => {
                 </div>
             
                 <div className="button-wrapper">
-                    <a className="button" href="https://deep9110.hashnode.dev/javascript-v8-engine-in-nodejs" target="_black">
+                    <a className="button" href="https://deep9110.hashnode.dev/all-about-jsx-component-props-and-hooks" target="_black">
                       Read More
                     </a>
                 </div>

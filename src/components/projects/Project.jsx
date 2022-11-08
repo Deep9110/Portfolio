@@ -3,7 +3,7 @@ import Cart from '../cart/Cart'
 import './Project.css'
 const Project = () => {
   return (
-    <div className='projects'>
+    <div className='projects' id='project'>
         <h1>Projects</h1>
         <div className='project'>
             <Cart />

@@ -5,6 +5,7 @@ import Home from './components/home/Home';
 import Tech from './components/tech/Tech';
 import Project from './components/projects/Project';
 import Blog from './components/blog/Blog';
+import Contact from './components/contact/Contact';
 
 
 function App() {
@@ -12,10 +13,10 @@ function App() {
     <div className="App">
       
       <Home/>
-      <Tech/>
-      
+      <Tech/>     
       <Project/>
       <Blog/>
+      <Contact/>
     </div>
   );
 }
