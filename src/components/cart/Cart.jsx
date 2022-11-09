@@ -10,10 +10,10 @@ const cart = () => {
             <h4>EShopping</h4>
             <div className='techs'> <span>HTML</span> <span>CSS</span> <span>Tailwind CSS</span> <span>React Js</span> </div>
             <div className='content-link'>
-              <a href="/" target="_blank">
+              <a href="https://github.com/Deep9110/EShopping" target="_blank">
                 <i  class='bx bxl-github'></i>
               </a>
-              <a href="/" target="_blank">
+              <a href="https://e-shoppings.vercel.app/" target="_blank">
                 <i class='bx bx-globe' ></i>
               </a>
             </div>
