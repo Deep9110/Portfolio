@@ -21,7 +21,7 @@ const Home = () => {
             <span>Frontend Developer</span>
             <p>I have a Master's degree on Computer Application. Currently focused on learning Javascript 
                 Fullstack Web development. I am Open for Work, Collaboration & Job Opportunity</p>
-            <a href="/"><button>Resume</button></a>
+            <a href="https://bit.ly/deepsundarrout_resume" target="_blank"><button>Resume</button></a>
             <Social2/>
         </Content>
         <Social/>
